@@ -59,10 +59,11 @@ public class Date {
   public String getState(){
     return state;
   }
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+  // Constructor modified by the owner
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
   }
 
   /**
